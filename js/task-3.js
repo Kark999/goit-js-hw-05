@@ -4,8 +4,8 @@ const sortByDescendingFriendCount = users => {
 };
 
 //====== Comment ===========
-// fFL - firstFriendsLength;
-// sFL - secondFriendLength;
+// fFL = firstFriendsLength;
+// sFL = secondFriendLength;
 
 console.log(
   sortByDescendingFriendCount([
