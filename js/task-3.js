@@ -1,6 +1,6 @@
 'use strict';
 const sortByDescendingFriendCount = users => {
-  return users.sort((fFL, sFL) => sFL.friends.length - fFL.friends.length);
+  return users.toSorted((fFL, sFL) => sFL.friends.length - fFL.friends.length);
 };
 
 //====== Comment ===========
